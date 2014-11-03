@@ -8,7 +8,7 @@
 
 # Make Pokemon
 %w(Gengar Gastly Squirtle Charmander Bulbasaur Pikachu).each do |name|
-  Pokemon.create name: name, level: rand(1..20)
+  Pokemon.create name: name, level: rand(1..20), health: 100;
 end
 
 # Make other trainers
