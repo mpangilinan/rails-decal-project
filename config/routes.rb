@@ -5,5 +5,6 @@ Rails.application.routes.draw do
 
   # call capture; name capture as prefix; set URI to capture
   patch '/capture', to: 'pokemons#capture', as: 'capture'
+  patch '/damage', to: 'trainers#show', as: 'damage'
 
 end
